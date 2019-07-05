@@ -39,7 +39,7 @@ public class GithubRepoPageProcessor implements PageProcessor {
     public Site getSite() {
         return site;
     }
-˚
+
     public static void main(String[] args) {
 
         //System.setProperty("javax.net.debug", "all")或设置VM参数-Djavax.net.debug=all，以显示https握手过程，方便调试：
