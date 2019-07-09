@@ -1,4 +1,4 @@
-package com.code.data;
+package com.code.example;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

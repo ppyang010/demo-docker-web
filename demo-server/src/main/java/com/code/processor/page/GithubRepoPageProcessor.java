@@ -1,7 +1,8 @@
-package com.code.spider;
+package com.code.processor.page;
 
 import com.alibaba.fastjson.JSON;
 import com.code.support.MyHttpClientDownloader;
+import org.springframework.stereotype.Component;
 import us.codecraft.webmagic.Page;
 import us.codecraft.webmagic.Site;
 import us.codecraft.webmagic.Spider;
@@ -9,9 +10,8 @@ import us.codecraft.webmagic.processor.PageProcessor;
 
 /**
  * @author ccy
- * @description
- * @time 2019/7/5 下午2:46
  */
+@Component
 public class GithubRepoPageProcessor implements PageProcessor {
     /**
      * 部分一：抓取网站的相关配置，包括编码、抓取间隔、重试次数等
