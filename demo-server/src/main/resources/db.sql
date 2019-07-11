@@ -6,6 +6,7 @@ CREATE TABLE `sys_roles` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `idx_sys_roles_role` (`role`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+
 create table post
 (
   id                int unsigned auto_increment comment '自增ID' primary key,
